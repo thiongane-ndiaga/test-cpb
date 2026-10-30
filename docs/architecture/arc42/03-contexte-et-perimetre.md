@@ -10,6 +10,9 @@
 - Par quels canaux et protocoles ces échanges se font-ils ? (à compléter une fois la stack décidée par ADR)
 
 ## 3.3 Hors périmètre
-- Qu'est-ce que le système ne fera explicitement pas ?
+- Aucun code applicatif et aucun choix de stack tant qu'un ADR accepté ne l'a pas fixé.
+- Aucune automatisation de CI consommant des tokens d'API sans accord explicite (ARCH-004).
+- Le dépôt ne fournit pas d'autre forge que GitHub (ARCH-004).
+- Qu'est-ce que le système applicatif ne fera explicitement pas ? _À préciser une fois le besoin connu._
 
-_À rédiger._
+_§3.1 et §3.2 restent à rédiger._
