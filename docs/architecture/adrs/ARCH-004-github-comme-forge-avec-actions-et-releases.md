@@ -9,7 +9,7 @@ rules: true
 
 ## Statut
 
-Proposé.
+Accepté (issue #4).
 
 ## Context
 
