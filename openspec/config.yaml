@@ -1,0 +1,28 @@
+schema: spec-driven
+
+context: |
+  Language: fr
+  All artifacts must be written in fr.
+  Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+  Change ids are "<issue-number>-<kebab-slug>" (e.g. 12-password-reset).
+  The technology stack is not chosen yet: never assume a language, framework,
+  database or deployment target unless an accepted ADR in docs/architecture/adrs/ says so.
+
+rules:
+  proposal:
+    - "First lines: 'Issue: #<n>' and 'ADR: <PREFIX-NNN, ...>' (or 'ADR: aucun')"
+    - Always state what is out of scope
+  design:
+    - Cross-cutting or durable decisions belong in an ADR; link it instead of restating it
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing
